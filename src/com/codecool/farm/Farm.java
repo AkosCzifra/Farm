@@ -69,23 +69,23 @@ public class Farm {
         return almondPlants;
     }
 
-    public void addAlmondPlant(Almond almondPlant) {
-        almondPlants.add(almondPlant);
+    public void addAlmondPlant() {
+        almondPlants.add(new Almond());
     }
 
     public List<Juniper> getJuniperPlants() {
         return juniperPlants;
     }
 
-    public void addJuniperPlant(Juniper juniperPlant) {
-        juniperPlants.add(juniperPlant);
+    public void addJuniperPlant() {
+        juniperPlants.add(new Juniper());
     }
 
     public List<Spruce> getSprucePlants() {
         return sprucePlants;
     }
 
-    public void addSprucePlant(Spruce sprucePlant) {
-        sprucePlants.add(sprucePlant);
+    public void addSprucePlant() {
+        sprucePlants.add(new Spruce());
     }
 }
